@@ -128,7 +128,7 @@ roles in the Control Panel are resolved.
        The |product name| **observer** role is ignored.
 
 
-.. _keep-dg-api-info-rbac-permissions:
+.. _rbac-permissions-info:
 
 RBAC permissions cross-reference to |product name| API operations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
