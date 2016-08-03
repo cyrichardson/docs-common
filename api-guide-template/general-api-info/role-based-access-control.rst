@@ -49,7 +49,7 @@ perform the following tasks:
 .. _rbac-available-roles:
 
 Roles available for |product name|
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The following table describes the roles that can be used to access the
 |product name| API.
@@ -62,12 +62,11 @@ The following table describes the roles that can be used to access the
      - Role permissions
    * - lbaas:admin
      - This role provides Create, Read, Update, and Delete permissions
-       in Cloud Load Balancers, where access is granted.
+       in |product name|, where access is granted.
    * - lbaas:creator
-     - This role provides Create, Read and Update permissions in Cloud Load
-       Balancers, where access is granted.
+     - This role provides Create, Read and Update permissions in |product name|, where access is granted.
    * - lbaas:observer
-     - This role provides Read permission in Cloud Load Balancers, where access
+     - This role provides Read permission in |product name|, where access
        is granted.
 
 .. _rbac-available-multi-roles:
@@ -132,7 +131,7 @@ roles in the Control Panel are resolved.
 .. _keep-dg-api-info-rbac-permissions:
 
 RBAC permissions cross-reference to |product name| API operations
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 API operations for |product name| may or may not be available to all
 roles. To see which operations are permitted to invoke which calls,
