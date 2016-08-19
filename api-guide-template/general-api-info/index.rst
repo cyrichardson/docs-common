@@ -20,7 +20,7 @@ access between products and services.
     HTTPS on TCP port 443. For authentication instructions, see
     :ref:`Authenticate to the Rackspace Cloud <authenticate-to-cloud>`.
 
-.. COMMENT: The topics in the toctree vary based on the API being documented. 
+.. COMMENT: The topics in the toctree vary based on the API being documented.
    Update topics and adapt information in topics based on your product.
 
 .. toctree::
@@ -33,6 +33,7 @@ access between products and services.
    paginated-collections
    limits
    faults
+   http-status-codes
    date-time-format
    api-behavior
    compatible-shared-load-balancing-protocols

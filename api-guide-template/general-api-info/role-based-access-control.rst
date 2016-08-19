@@ -32,13 +32,13 @@ created.
 See the Cloud Identity API guide for information about how to
 perform the following tasks:
 
-* :rax-devdocs:`Add account users <cloud-identity/v2/developer-guide/#add-user>`
+* :rax-devdocs:`Add account users <cloud-identity/v2/api-reference/users-operations/#add-user>`
 
 * :rax-devdocs:`Add role to user \
-  <cloud-identity/v2/developer-guide/#add-role-to-user>`
+  <cloud-identity/v2/api-reference/role-operations/#add-role-to-user>`
 
 * :rax-devdocs:`Delete global role from user \
-  <cloud-identity/v2/developer-guide/#delete-global-role-from-user>`
+  <cloud-identity/v2/api-reference/role-operations/#delete-global-role-from-user>`
 
 .. note::
 
@@ -64,7 +64,8 @@ The following table describes the roles that can be used to access the
      - This role provides Create, Read, Update, and Delete permissions
        in |product name|, where access is granted.
    * - lbaas:creator
-     - This role provides Create, Read and Update permissions in |product name|, where access is granted.
+     - This role provides Create, Read and Update permissions in
+       |product name|, where access is granted.
    * - lbaas:observer
      - This role provides Read permission in |product name|, where access
        is granted.
@@ -77,8 +78,6 @@ Multiproduct global roles and permissions
 Additionally, two multiproduct roles apply to all products. Users with
 multiproduct roles inherit access to products when those products become
 RBAC-enabled. The following table describes these roles and their permissions.
-
-**Multiproduct roles and permissions**
 
 .. list-table:: **Multiproduct roles and permissions**
    :widths: 20 40
