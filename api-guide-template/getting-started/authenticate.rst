@@ -21,7 +21,7 @@ a token expiration date. When a token expires, you can send another
 authentication request to get a new one.
 
 
-. note::
+.. note::
      For more information about authentication tokens, see the following
      topics in the Rackspace Cloud Identity developer documentation.
 
