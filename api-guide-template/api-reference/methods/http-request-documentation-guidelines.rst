@@ -98,7 +98,8 @@ Parameter tables include the following columns:
 - **Type**: Use the full word, with initial an capital. For example:
   String, Boolean
 
-- **Description**: Provide meaningful information about the parameter; don't
+- **Description**: If the parameter is required, start the description with *(Required)*.
+  Provide meaningful information about the parameter; don't
   just repeat the parameter’s name. Start the description with an initial
   phrase, punctuated and capitalized as a sentence. For example: "The unique
   identifier of the project." Follow the phrase with a sentence or two, as
