@@ -87,7 +87,8 @@ This is the first main section and heading after the title. Use the title
 
 This section includes tables for header, URI, query, and request body
 parameters, as needed. Precede each table with a basic introduction, such as
-"The request has the following ___ parameters." Use the `list-table` directive to create the table.
+"The request has the following ___ parameters." Use the `list-table` directive
+to create the table.
 
 Parameter tables include the following columns:
 
@@ -98,8 +99,8 @@ Parameter tables include the following columns:
 - **Type**: Use the full word, with initial an capital. For example:
   String, Boolean
 
-- **Description**: If the parameter is required, start the description with *(Required)*.
-  Provide meaningful information about the parameter; don't
+- **Description**: If the parameter is required, start the description with
+  *(Required)*. Provide meaningful information about the parameter; don't
   just repeat the parameter’s name. Start the description with an initial
   phrase, punctuated and capitalized as a sentence. For example: "The unique
   identifier of the project." Follow the phrase with a sentence or two, as
@@ -181,7 +182,9 @@ introductory sentence.
 Response codes
 --------------
 
-Provide a table (using the `list-table` directive) with the possible response codes for the operation. Introduce it as follows: "This operation can have the following response codes."
+Provide a table (using the `list-table` directive) with the possible response
+codes for the operation. Introduce it as follows: "This operation can have the
+following response codes."
 
 Response code tables include the following columns:
 
