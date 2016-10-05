@@ -12,35 +12,33 @@ Document an HTTP request
    
    Delete the example content and comments, and add your content.
 
-.. Immediately following the title, show the URI in a code block (no label).
+.. Following the title, show the URI in a code block (no label).
 
 .. code::
 
     METHOD /version/{projectId}/service/{placeholder}
 
-.. Immediately follow the URI code block with a description
+.. Follow the URI code block with a description
    (no heading). Include only necessary information that applies
    to the operation as a whole. Place specific information about a
    parameter in the parameter table, later in the file. If there is more
    parameter information than can be shown in the table, place it after
    the introduction.
 
-   For example:
-
 This operation [describe what the operation does].
 
 Request parameters
 ~~~~~~~~~~~~~~~~~~
 
-.. This section includes tables for header, URI, query, and request
+.. Provide tables for header, URI, query, and request
    body parameters, as needed. Precede each table with a basic
-   introduction, such as "The request has the following ___ parameters."
+   introduction.
 
 The request has the following [header | URI | query | request body]
 parameters.
 
 .. Parameter tables include the following columns: Name, Type, Description.
-   Following is an example table, created with the `list-table` directive:
+   Following is an example table, created with the `list-table` directive.
 
 .. list-table::
    :widths: 15 10 30
@@ -65,11 +63,11 @@ parameters.
 Request example
 ~~~~~~~~~~~~~~~
 
-.. This section contains the code example with an introductory sentence,
+.. Provide a code example with an introductory sentence,
    such as "The following example shows the JSON request for retrieving a list
    of flavors." Specify the type of request, if applicable (such as JSON,
    HTTP, or cURL). In the example, include the HTTP request header and show
-   the body (if there is a body). For example:
+   the body (if there is a body).
 
 The following example shows [describe what the example shows].
 
@@ -92,11 +90,12 @@ Response parameters
 .. If you need to say something specific about the response, say it in
    this section, and then include a table for body parameters, as needed
    (using the `list-table` directive). Precede the table with a basic
-   introduction, such as "The response has the following body parameters."
-   Parameter tables include the following columns: Name, Type, Description.
-   Following is an example table, created with the `list-table` directive:
+   introduction.
 
 The response has the following body parameters.
+
+.. Parameter tables include the following columns: Name, Type, Description.
+   Following is an example table, created with the `list-table` directive.
 
 .. list-table::
    :widths: 15 10 30
@@ -118,11 +117,11 @@ The response has the following body parameters.
 Response example
 ~~~~~~~~~~~~~~~~
 
-.. This section contains the code example with an introductory sentence,
+.. Provide a code example with an introductory sentence,
    such as "The following example shows the JSON response for the request."
    Specify the type of response, if applicable (such as JSON, HTTP, or cURL).
    In the example, include the HTTP request header and show the body (if there
-   is a body). For example:
+   is a body).
 
 The following example shows [describe what the example shows].
 
