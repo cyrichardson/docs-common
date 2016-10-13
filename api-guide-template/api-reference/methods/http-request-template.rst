@@ -3,42 +3,33 @@
 Document an HTTP request
 ========================
 
-   This template provides the structure, some guidelines, and example
-   content for documenting a single HTTP request (for example,
-   GET /v2.0/servers). For more guidelines, see 
-   :ref:`HTTP request documentation guidelines
-   <http-request-documentation-guidelines>`. For an extended example, 
-   see :ref:`Example HTTP request topic <update-an-image>`.
+This template provides structure, guidelines, and example content for
+documenting a single HTTP request (for example, ``GET /v2.0/servers``). For
+more guidelines, see :ref:`HTTP request documentation guidelines
+<http-request-documentation-guidelines>`. For an extended example, see
+:ref:`Example HTTP request topic <update-an-image>`.
    
-   Delete the example content and comments, and add your content.
-
-.. Following the title, show the URI in a code block (no label).
+Following the title, show the URI in a code block (no label). For example:
 
 .. code::
 
-    METHOD /version/{projectId}/service/{placeholder}
+    PATCH /v1.0/images/{imageId}
 
-.. Follow the URI code block with a description
-   (no heading). Include only necessary information that applies
-   to the operation as a whole. Place specific information about a
-   parameter in the parameter table, later in the file. If there is more
-   parameter information than can be shown in the table, place it after
-   the introduction.
+Follow the URI code block with a description. Include only information that
+applies to the operation as a whole. Place specific information about a
+parameter in the parameter table, later in the file. For example:
 
-This operation [describe what the operation does].
+This operation updates the specified image. You can update only an image that you own.
 
 Request parameters
 ~~~~~~~~~~~~~~~~~~
 
-.. Provide tables for header, URI, query, and request
-   body parameters, as needed. Precede each table with a basic
-   introduction.
+Provide tables for header, URI, query, and request body parameters, as needed
+(using the ``list-table`` directive). Precede each table with a basic
+introduction. Parameter tables include the following columns: Name, Type,
+Description. For example:
 
-The request has the following [header | URI | query | request body]
-parameters.
-
-.. Parameter tables include the following columns: Name, Type, Description.
-   Following is an example table, created with the `list-table` directive.
+The request has the following body parameters:
 
 .. list-table::
    :widths: 15 10 30
@@ -57,19 +48,18 @@ parameters.
      - The actual value to be added or replaced. This parameter is not required
        for the ``remove`` operation.
 
-.. If there are no request body parameters, include the following
-   sentence: "This operation does not accept a request body."
+If there are no request body parameters, include the following sentence:
+
+This operation does not accept a request body.
 
 Request example
 ~~~~~~~~~~~~~~~
 
-.. Provide a code example with an introductory sentence,
-   such as "The following example shows the JSON request for retrieving a list
-   of flavors." Specify the type of request, if applicable (such as JSON,
-   HTTP, or cURL). In the example, include the HTTP request header and show
-   the body (if there is a body).
+Provide a request example with an introductory sentence. Specify the type of
+request, if applicable (such as JSON, HTTP, or cURL). In the example, include
+the HTTP request header and show the body (if there is a body). For example:
 
-The following example shows [describe what the example shows].
+The following example shows the JSON request for retrieving a list of flavors:
 
 .. code::
 
@@ -87,15 +77,13 @@ The following example shows [describe what the example shows].
 Response parameters
 ~~~~~~~~~~~~~~~~~~~
 
-.. If you need to say something specific about the response, say it in
-   this section, and then include a table for body parameters, as needed
-   (using the `list-table` directive). Precede the table with a basic
-   introduction.
+If you need to say something specific about the response, say it in this
+section, and then include a table for body parameters, as needed (using the
+``list-table`` directive). Precede the table with a basic introduction.
+Parameter tables include the following columns: Name, Type, Description. For
+example:
 
-The response has the following body parameters.
-
-.. Parameter tables include the following columns: Name, Type, Description.
-   Following is an example table, created with the `list-table` directive.
+The response has the following body parameters:
 
 .. list-table::
    :widths: 15 10 30
@@ -117,13 +105,11 @@ The response has the following body parameters.
 Response example
 ~~~~~~~~~~~~~~~~
 
-.. Provide a code example with an introductory sentence,
-   such as "The following example shows the JSON response for the request."
-   Specify the type of response, if applicable (such as JSON, HTTP, or cURL).
-   In the example, include the HTTP request header and show the body (if there
-   is a body).
+Provide a response example with an introductory sentence. Specify the type of
+response, if applicable (such as JSON, HTTP, or cURL). In the example, include
+the HTTP request header and show the body (if there is a body). For example:
 
-The following example shows [describe what the example shows].
+The following example shows the JSON response for the request:
 
 .. code::
 
@@ -143,12 +129,11 @@ The following example shows [describe what the example shows].
 Response codes
 ~~~~~~~~~~~~~~
 
-.. Provide a `list-table` table with the possible response codes for
-   the operation. Response code tables include the following columns:
-   Code, Name, Description. Following is an example table with just a
-   few possible codes.
+Provide a `list-table` table with the possible response codes for the
+operation. Response code tables include the following columns: Code, Name,
+Description. Following is an example table with just a few possible codes.
 
-This operation can have the following response codes.
+This operation can have the following response codes:
 
 .. list-table::
    :widths: 15 10 30
