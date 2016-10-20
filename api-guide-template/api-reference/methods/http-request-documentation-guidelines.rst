@@ -87,7 +87,8 @@ This is the first main section and heading after the title. Use the title
 
 This section includes tables for header, URI, query, and request body
 parameters, as needed. Precede each table with a basic introduction, such as
-"The request has the following ___ parameters." Use the `list-table` directive
+"The request has the following ___ parameters." Use the `list-table directive
+<http://docutils.sourceforge.net/docs/ref/rst/directives.html#list-table>`_
 to create the table.
 
 Parameter tables include the following columns:
@@ -139,7 +140,9 @@ Response parameters
 If you need to say something specific about the response, say it in this
 section, and then include a table for body parameters, as needed. Precede the
 table with a basic introduction, such as "The response has the following body
-parameters." Use the `list-table` directive to create the table.
+parameters." Use the `list-table directive
+<http://docutils.sourceforge.net/docs/ref/rst/directives.html#list-table>`_
+to create the table.
 
 Parameter tables include the following columns:
 
@@ -182,9 +185,10 @@ introductory sentence.
 Response codes
 --------------
 
-Provide a table (using the `list-table` directive) with the possible response
-codes for the operation. Introduce it as follows: "This operation can have the
-following response codes."
+Provide a table (using the `list-table directive
+<http://docutils.sourceforge.net/docs/ref/rst/directives.html#list-table>`_)
+with the possible response codes for the operation. Introduce it as follows:
+"This operation can have the following response codes."
 
 Response code tables include the following columns:
 
