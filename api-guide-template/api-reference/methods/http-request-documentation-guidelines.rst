@@ -1,15 +1,15 @@
 HTTP request documentation guidelines
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This section provides guidelines for documenting a single HTTP
+This document provides guidelines for documenting a single HTTP
 request (for example, ``GET /v2.0/servers``). It provides the topic
 structure and guidelines for content and style within each section.
 
 .. note::
 
-     Headings in parentheses indicate parts of the section that do not have a
+     Headings in parentheses indicate parts of a section that do not have a
      heading in the template. For an example of the template with content that
-     following these guidelines, see
+     follows these guidelines, see
      :ref:`Example http request topic <update-an-image>`.
 
 Title
@@ -66,9 +66,9 @@ Follow the URI code block with a description (no heading). Start with "This
 operation …"
 
 Include only necessary information that applies to the operation as a whole.
-Specific information about a parameter should go in the parameter table. If
-there  is more parameter information than can be shown in the table, place it
-in a  "parameter details" section following the introduction.
+Specific information about a parameter should go in the parameter table.
+However, if there is more parameter information than can be shown in the
+table, place it after the introduction.
 
 (parameter details)
 -------------------
