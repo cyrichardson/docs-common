@@ -19,15 +19,23 @@ Follow the URI code block with a description. Include only information that
 applies to the operation as a whole. Place specific information about a
 parameter in the parameter table, later in the file. For example:
 
-This operation updates the specified image. You can update only an image that you own.
+This operation updates the specified image. You can update only an image that
+you own.
+
+.. note::
+
+      In all of the sections that follow, use the headings that are shown.
+      The only heading that should be customized is the main title of the
+      topic.
 
 Request parameters
 ~~~~~~~~~~~~~~~~~~
 
 Provide tables for header, URI, query, and request body parameters, as needed
-(using the ``list-table`` directive). Precede each table with a basic
-introduction. Parameter tables include the following columns: Name, Type,
-Description. For example:
+(using the `list-table directive
+<http://docutils.sourceforge.net/docs/ref/rst/directives.html#list-table>`_).
+Precede each table with a basic introduction. Parameter tables include the
+following columns: Name, Type, Description. For example:
 
 The request has the following body parameters:
 
@@ -79,9 +87,10 @@ Response parameters
 
 If you need to say something specific about the response, say it in this
 section, and then include a table for body parameters, as needed (using the
-``list-table`` directive). Precede the table with a basic introduction.
-Parameter tables include the following columns: Name, Type, Description. For
-example:
+`list-table directive
+<http://docutils.sourceforge.net/docs/ref/rst/directives.html#list-table>`_).
+Precede the table with a basic introduction. Parameter tables include the
+following columns: Name, Type, Description. For example:
 
 The response has the following body parameters:
 
@@ -129,9 +138,11 @@ The following example shows the JSON response for the request:
 Response codes
 ~~~~~~~~~~~~~~
 
-Provide a `list-table` table with the possible response codes for the
-operation. Response code tables include the following columns: Code, Name,
-Description. Following is an example table with just a few possible codes.
+Provide a `list table
+<http://docutils.sourceforge.net/docs/ref/rst/directives.html#list-table>`_
+with the possible response codes for the operation. Response code tables
+include the following columns: Code, Name, Description. Following is an
+example table with just a few possible codes.
 
 This operation can have the following response codes:
 
