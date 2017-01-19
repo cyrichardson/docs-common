@@ -65,6 +65,9 @@ master_doc = 'index'
 builder = 'deconst-serial'
 # builder = 'deconst-single'
 
+# Exclude content from elastic search index
+deconst_default_unsearchable = True
+
 # General information about the project.
 project = 'Rackspace product'
 copyright = 'date'
