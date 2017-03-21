@@ -7,8 +7,8 @@ is available for Linux distributions, Mac OS® X, and Microsoft Windows®. For
 information about cURL, see `http://curl.haxx.se/ <http://curl.haxx.se/>`__.
 
 To run the cURL request examples shown in this guide on Mac OS® X or another
-Linux-based operating system, copy each example directly to the command line
-or a script.
+Linux-based operating system, you should be able to copy each example directly
+to the command line or a script.
 
 .. note::
 
@@ -17,6 +17,11 @@ or a script.
    :ref:`Convert cURL examples to run on Windows \
    <convert-cURL-examples-for-windows>`.
 
+.. important::
+
+   The cURL examples in this guide are provided for reference only. Because
+   the use of cURL has environmental dependencies, copying and pasting the
+   examples might not work in your environment.
 
 .. _auth-curl-json:
 

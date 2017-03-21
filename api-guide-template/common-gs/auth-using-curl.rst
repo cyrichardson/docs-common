@@ -7,6 +7,11 @@ Follow these steps to authenticate to the Rackspace Cloud by
 - :ref:`Review the authentication response <review-auth-resp>`
 - :ref:`Configure environment variables <configure-environment-variables>`
 
+.. important::
+
+    The cURL examples in this guide are provided for reference only. Because
+    the use of cURL has environmental dependencies, copying and pasting the
+    examples might not work in your environment.
 
 .. _send-auth-req-curl:
 
@@ -98,7 +103,7 @@ the following error message descriptions to determine next steps.
        For additional information about authentication errors, see the
        :rax-dev:`Identity API Reference documentation
        <docs/cloud-identity/v2/api-reference/token-operations>`.
-       
+
 
 .. _configure-environment-variables:
 
