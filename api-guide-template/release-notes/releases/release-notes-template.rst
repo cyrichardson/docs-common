@@ -13,8 +13,7 @@ any existing code that relies on the API (SDK, web applications, scripts, an so
 on). However, you might want to update your code to take advantage of new
 features, enhancements, and fixes.
 
-To report issues related to these changes, submit feedback in the Rackspace
-Community or contact Rackspace Support.
+To report issues related to these changes, contact Rackspace Support.
 
 .. Template instructions: Content categories are "What's new,"
    "Resolved issues," "Known issues," and "Documentation changes."

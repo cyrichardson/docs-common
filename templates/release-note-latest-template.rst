@@ -1,30 +1,29 @@
 .. latest-release-notes:
 
-.. Template instructions - Specify version number and date in the title. If no version 
+.. Template instructions - Specify version number and date in the title. If no version
    number, use v"current-version", date.
-   
+
 
 |release|.36.0 October 14, 2015
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This release provides backward compatible updates to |apiservice| |contract version|. 
-These changes are backward compatible and are not intended to break 
-any existing code that relies on the API (SDK, web applications, 
-scripts, and so on).  However, you might want to update your code to take advantage of 
-new features, enhancements, and fixes. 
+This release provides backward compatible updates to |apiservice| |contract version|.
+These changes are backward compatible and are not intended to break
+any existing code that relies on the API (SDK, web applications,
+scripts, and so on).  However, you might want to update your code to take advantage of
+new features, enhancements, and fixes.
 
-To report issues related to these changes, submit feedback in the Rackspace Community or 
-contact Rackspace Support. 
-
- 
+To report issues related to these changes, contact Rackspace Support. 
 
 
-.. Template instructions - 
-   Content categories: What's New, Resolved Issues, Known Issues, Documentation changes.  
+
+
+.. Template instructions -
+   Content categories: What's New, Resolved Issues, Known Issues, Documentation changes.
    Limit doc changes to content important to API users and developers, for example
    "added extended example to illustrate use of xxx operation" or something like that.
-   
-   
+
+
 
 .. whats-new:
 
@@ -33,13 +32,13 @@ What's new
 
 .. Comment Provided bulleted list of all that apply:  New features, enhancements
 
-This release was a maintenance release that resolved existing issues with version 
-|contract version| of the apiservice. 
+This release was a maintenance release that resolved existing issues with version
+|contract version| of the apiservice.
 
 .. Comment - New operations. Defined list with bullets if more than one operation.
 
 .. Comment - Changed operations.  Defined list with bullets.
-	
+
 .. Comment - Schema changes. Item, part of schema (param, object, and so on), type of change (add, remove, modify)
 
 
@@ -72,11 +71,10 @@ Documentation changes
 
 - Added volume and flavor info to the API operation List HA database instance details.
 
-- Added note about converting automated backup schedule, if a source/replica has automated 
-  backups enabled, to the API operation Convert replication setup to HA. In this case, 
-  the schedule will be converted to an HA group automated backup schedule with the source 
-  id set to the HA id. The day, hour and minute settings will be the same as the source or 
-  replica schedule. 
+- Added note about converting automated backup schedule, if a source/replica has automated
+  backups enabled, to the API operation Convert replication setup to HA. In this case,
+  the schedule will be converted to an HA group automated backup schedule with the source
+  id set to the HA id. The day, hour and minute settings will be the same as the source or
+  replica schedule.
 
 - Source changes to RESTART state when enabling as master during replication setup.
-
